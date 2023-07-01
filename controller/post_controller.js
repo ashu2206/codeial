@@ -1,4 +1,4 @@
-module.exports.post=function(req,res)
+module.exports.profile=function(req,res)
 {
-    return res.end('<h1>Hello this is our post page<h1>');
+    return res.render('post',{title:"post page"});
 }
