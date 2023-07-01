@@ -7,7 +7,7 @@ const usersController=require('../controller/post_controller');
 
 console.log('post router loaded')
 
-router.get('/post',usersController.post);
+router.get('/post',usersController.posts);
 
 
 
